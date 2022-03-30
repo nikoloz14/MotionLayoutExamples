@@ -10,18 +10,23 @@ import com.nikoloz.motionexamples.example_02.Example02Activity
 import com.nikoloz.motionexamples.example_03.Example03Activity
 import com.nikoloz.motionexamples.example_04.Example04Activity
 import com.nikoloz.motionexamples.example_05.Example05Activity
+import com.nikoloz.motionexamples.example_06.Example06Activity
+import com.nikoloz.motionexamples.example_07.Example07Activity
 
 /**
  * Created by nikolozakhvlediani on 3/30/22.
  */
 class MainActivity : AppCompatActivity() {
 
-    val examples = mapOf(
+    private val examples = mapOf(
         "Constraint" to Example01Activity::class.java,
         "Simple" to Example02Activity::class.java,
         "OnSwipe" to Example03Activity::class.java,
         "Trigger from code" to Example04Activity::class.java,
         "ConstrainSets in Scene" to Example05Activity::class.java,
+        "CustomAttributes" to Example06Activity::class.java,
+        "KeyFrames 1" to Example07Activity::class.java,
+        "KeyFrames 2" to Example07Activity::class.java,
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,5 +43,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
 }
