@@ -12,6 +12,7 @@ import com.nikoloz.motionexamples.example_04.Example04Activity
 import com.nikoloz.motionexamples.example_05.Example05Activity
 import com.nikoloz.motionexamples.example_06.Example06Activity
 import com.nikoloz.motionexamples.example_07.Example07Activity
+import com.nikoloz.motionexamples.example_08.Example08Activity
 
 /**
  * Created by nikolozakhvlediani on 3/30/22.
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         "ConstrainSets in Scene" to Example05Activity::class.java,
         "CustomAttributes" to Example06Activity::class.java,
         "KeyFrames 1" to Example07Activity::class.java,
-        "KeyFrames 2" to Example07Activity::class.java,
+        "KeyFrames 2" to Example08Activity::class.java,
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
